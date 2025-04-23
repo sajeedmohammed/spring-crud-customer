@@ -20,5 +20,5 @@ jobs:
         distribution: 'temurin'
 
     - name: Build with Maven
-      run: mvn clean install-Dspring.profiles.active=test
+      run: mvn install -Dspring.profiles.active=test
       working-directory: spring-crud-customer
