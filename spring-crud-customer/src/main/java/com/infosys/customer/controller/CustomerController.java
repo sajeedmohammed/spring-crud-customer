@@ -11,6 +11,7 @@ import java.util.List;
 public class CustomerController {
     private final CustomerService customerService;
 
+    //Added this comment to triger CI
     //Constructor injection of customer service
 
     @Autowired
